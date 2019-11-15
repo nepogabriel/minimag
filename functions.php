@@ -1,6 +1,6 @@
 <?php
 //Include
-require get_template_directory_uri().'/include/setup.php';
+require get_template_directory().'/include/setup.php';
 
 //Hooks
 //carregar css e js
