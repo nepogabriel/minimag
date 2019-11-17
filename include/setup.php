@@ -22,7 +22,7 @@ function gm_after_setup() {
 
     //Registrando os Menus
         register_nav_menu("primary", "Menu Principal");
-        register_nav_menu("top", "Menu Topo");
+        register_nav_menu("topo", "Menu Topo");
 }
 
 //iniciar widgets

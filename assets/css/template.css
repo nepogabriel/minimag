@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+/* MENU TOPO (ñ está funcionando corretamente)*/
+.top_header {
+    background-color: #222326;
+    height: 45px;
+    border-bottom: 1px solid #414346;
+}
+
+.navbar-nav>li>a {
+    /*
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    */
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav>li>a:hover {
+    color: #8d8d8d;
+}
+
+/* CABEÇALHO */
+.main_header {
+    height: 235px;
+    background-color: #2d3034;
+}
+
+.logo {
+    height: 133px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+/* MENU PRINCIPAL */
+.main_nav_border{
+    border-top: 2px solid #24262a;
+    border-left: 2px solid #24262a;
+    border-right: 2px solid #24262a;
+}
+
+.main_nav {
+    height: 45px;
+    border-top: 1px solid #383b3e;
+}
+
+/* CAMPO DE BUSCA */
+.search_area {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.search_input {
+    background-color: #282b2f;
+    border: 0;
+    height: 32px;
+    font-size: 15px;
+    width: 140px;
+    padding: 10px;
+    color: #fff;
+    outline: 0;
+}
+
+.search_submit {
+    background-color: #3e4145;
+    height: 32px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/*BARRA ABAIXO DO MENU PRINCIPAL*/
+.main_info {
+    background-color: #fff;
+    height: 55px;
+}
+
+.main_info .row {
+    margin: 0;
+}
+
+.socialarea {
+    background-color: #3382b5;
+    height: 56px; /*deveria ser height: 100%;*/
+}
