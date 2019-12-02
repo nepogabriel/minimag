@@ -37,7 +37,12 @@ body {
     height: 50px;
     width: auto;
     margin-top: 40px;
-    padding-left: 20px;
+    
+}
+
+.logo img:hover {
+    height: 51px;
+    width: auto;
 }
 
 /* MENU PRINCIPAL */
@@ -64,7 +69,7 @@ body {
     border: 0;
     height: 32px;
     font-size: 15px;
-    width: 140px;
+    width: 200px;
     padding: 10px;
     color: #fff;
     outline: 0;
@@ -88,8 +93,70 @@ body {
 .main_info .row {
     margin: 0;
 }
-
+/* redes sociais */
 .socialarea {
     background-color: #3382b5;
-    height: 56px; /*deveria ser height: 100%;*/
+    height: 55px; /*deveria ser height: 100%;*/
+    color: #c2dae9;
+}
+
+.socialtxt {
+    line-height: 55px;
+    float: left;
+}
+
+.socialicons {
+    float: right;
+    height: 20px;
+    margin-top: 17px;
+}
+
+.socialicons img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.socialicons a:hover {
+    text-decoration: none;
+}
+
+/* post aletorio */
+.postaleatorio {
+    line-height: 55px;
+    color: #999;
+}
+
+.postaleatorio a {
+    color: #999;
+    margin-left: 20px;
+}
+
+.postaleatorio a:hover {
+    color: #282b2f;
+    font-weight: bold;
+}
+
+/*Área de posts e Sidebar*/
+section .row {
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #eee;
+}
+
+.sidebar .widget {
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.sidebar .widget .tagcloud {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sidebar .widget .tagcloud a {
+    background-color: #94c354;
+    color: #fff;
+    font-size: 18px; /*ñ quer funcionar*/
+    padding: 10px;
 }
