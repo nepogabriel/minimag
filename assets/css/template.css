@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #ad1c1c;
 }
 
 /* MENU TOPO (ñ está funcionando corretamente)*/
@@ -159,4 +160,61 @@ section .row {
     color: #fff;
     font-size: 18px; /*ñ quer funcionar*/
     padding: 10px;
+}
+
+.maincontent {
+    background-color: #fff;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 55px;
+    background-color: #fff;
+}
+
+.footer_widgets {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer_widgets .footer_widget {
+    display: flex;
+}
+
+.footer_widgets .widget {
+    width: 100%;
+}
+
+.mainfooter {
+    background-color: #2d3034;
+    height: 55px;
+    color: #fff;
+}
+
+.mainfooter_left {
+    float: left;
+    line-height: 55px;
+    margin-left: 20px;
+}
+
+.mainfooter_right {
+    float: right;
+    line-height: 55px;
+    margin-right: 20px;
+}
+
+.mainfooter_scroll {
+    position: absolute;
+    background-color: #fff;
+    height: 30px;
+    width: 55px;
+    left: 50%;
+    margin-left: -27px;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mainfooter_scroll img {
+    height: 20px;
 }
