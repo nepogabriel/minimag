@@ -18,7 +18,8 @@
                 <div class="mainfooter_right">
                     <p>Desenvolvido por <strong>Gabriel Ribeiro</strong></p>
                 </div>
-
+                
+                <!-- NÃO ESTÁ FUNCIONANDO O SCROLL -->
                 <div class="mainfooter_scroll">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/seta-up.png">
                 </div>
