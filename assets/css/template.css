@@ -233,7 +233,7 @@ footer {
 }
 
 .post_item {
-    margin: 15px 15px 30px 15px;
+    margin: 15px;
     height: 450px;
 }
 
@@ -256,7 +256,6 @@ footer {
 
 /*área do post*/
 .post_info {
-    background-color: #00ff00;
     min-height: 200px;
 }
 
@@ -288,7 +287,7 @@ footer {
 
 /*paginação*/
 .post_pag {
-    margin: 50px 20px 20px 20px;
+    margin: 20px;
 }
 
 .previous_pag {
@@ -297,4 +296,26 @@ footer {
 
 .next_pag {
     float: right;
+}
+
+/*SINGLE*/
+.post_content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.post_title_single {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.post_content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.comments_area {
+    border-top: 1px solid #cccccc;
 }
