@@ -1,3 +1,6 @@
+html {
+    margin: 0;
+}
 body {
     margin: 0;
     background-color: #ad1c1c;
@@ -217,4 +220,81 @@ footer {
 
 .mainfooter_scroll img {
     height: 20px;
+}
+
+/*FEED DE POSTS*/
+.maincontent article {
+    width: 50%;
+    float: left;
+}
+
+.maincontent article a {
+    text-decoration: none;
+}
+
+.post_item {
+    margin: 15px 15px 30px 15px;
+    height: 450px;
+}
+
+/*número de comentários*/
+.post_comment_area {
+    background-color: #77b05a;
+    background-image: url('../img/comments.svg');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    padding: 0 10px 0 31px;
+    float: right;
+    position: relative;
+    z-index: 99;
+}
+
+/*área do post*/
+.post_info {
+    background-color: #00ff00;
+    min-height: 200px;
+}
+
+/*thumbnail*/
+.post_thumb {
+    width: 100%;
+    height: auto;
+    margin-top: -22px;
+}
+
+/*data*/
+.post_date {
+    color: #b0afb0;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/*título*/
+.post_title {
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+
+/*resumo do post*/
+.post_excerpt {
+    color: #b0afb0;
+}
+
+/*paginação*/
+.post_pag {
+    margin: 50px 20px 20px 20px;
+}
+
+.previous_pag {
+    float: left;
+}
+
+.next_pag {
+    float: right;
 }
