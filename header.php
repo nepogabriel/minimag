@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
         <?php wp_head(); ?>
     </head>
 
     <body <?php body_class(); ?>>
         <header>
-            <!-- MENU TOPO (ñ está funcinando corretamente) -->
-            <div class="top_header">
-                <nav class="navbar navbar-dafault">
-                    <div class="container">
 
-                        <?php
-                            if(has_nav_menu('topo')) {
-                                wp_nav_menu(array(
-                                    'theme_location' => 'topo',
-                                    'container' => false,
-                                    'fallback_cb' => false,
-                                    'menu_class' => 'nav navbar-nav'
-                                ));
-                            }
-                        ?>
+            <div class="top_header">
+                <nav class="navbar navbar-expand-md" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                            <?php
+                            wp_nav_menu( array(
+                                'theme_location'    => 'top',
+                                'depth'             => 2,
+                                'container'         => 'div',
+                                'container_class'   => 'collapse navbar-collapse',
+                                'container_id'      => 'bs-example-navbar-collapse-1',
+                                'menu_class'        => 'nav navbar-nav',
+                                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                'walker'            => new WP_Bootstrap_Navwalker(),
+                            ) );
+                            ?>
                     </div>
                 </nav>
             </div>
@@ -51,6 +59,7 @@
                                     ));
                                 }
                             -->
+
                             <div class="search_area">
                                 <?php get_search_form(); ?>
                             </div>
