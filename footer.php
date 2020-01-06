@@ -12,7 +12,14 @@
 
             <div class="mainfooter">
                 <div class="mainfooter_left">
-                    <p>&copy; Todos os direitos reservados.</p>
+                    <p>
+                        &copy; Todos os direitos reservados. |
+                        <?php if(get_theme_mod('gm_privacy_url')): ?>
+                            <a href="<?php the_permalink( get_theme_mod('gm_privacy_url') ); ?>">
+                                Política de Privacidade
+                            </a>
+                        <?php endif; ?>
+                    </p>
                 </div>
 
                 <div class="mainfooter_right">
