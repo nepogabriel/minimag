@@ -322,10 +322,10 @@ footer {
     border-top: 1px solid #cccccc;
 }
 
-/* Tablet Horizontal OU Monitor Pequeno < 14 Pol.*/
-@media (min-width: 992px) and (max-width: 1199px) {
-
+.custom-header img {
+    width: 100%;
 }
+
 
 /* Tablet Vertical*/
 @media (min-width: 481px) and (max-width: 768px) {

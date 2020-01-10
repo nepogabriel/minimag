@@ -154,3 +154,10 @@
             </div>
 
         </header>
+        
+        <!-- Custom Header -->
+        <?php if(get_header_image()): ?>
+            <div class="container custom-header">
+                <img src="<?php header_image(); ?>" width="<?php //echo get_custom_header()->width; ?>">
+            </div>
+        <?php endif; ?>

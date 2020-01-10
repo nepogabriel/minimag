@@ -31,7 +31,7 @@ function gm_after_setup() {
     //Custom Headers
         //header padrão
         add_theme_support("custom-header", array(
-            'default-image' => get_template_directory_uri().'assets/img/headers/header2.jpg',
+            'default-image' => get_template_directory_uri().'/assets/img/headers/header2.jpg',
             'width' => 1280,
             'height' => 400,
             'flex-width' => true,
@@ -43,20 +43,20 @@ function gm_after_setup() {
         //Registrando os headers padrões
         register_default_headers( array(
             'header1' => array(
-                'url' => get_template_directory_uri().'assets/img/headers/header1.jpg',
-                'thumbnail_url' => get_template_directory_uri().'assets/img/headers/header1.jpg',
+                'url' => get_template_directory_uri().'/assets/img/headers/header1.jpg',
+                'thumbnail_url' => get_template_directory_uri().'/assets/img/headers/header1.jpg',
                 'description' => 'Header 1'
             ),
 
             'header2' => array(
-                'url' => get_template_directory_uri().'assets/img/headers/header2.jpg',
-                'thumbnail_url' => get_template_directory_uri().'assets/img/headers/header2.jpg',
+                'url' => get_template_directory_uri().'/assets/img/headers/header2.jpg',
+                'thumbnail_url' => get_template_directory_uri().'/assets/img/headers/header2.jpg',
                 'description' => 'Header 2'
             ),
 
             'header3' => array(
-                'url' => get_template_directory_uri().'assets/img/headers/header3.jpg',
-                'thumbnail_url' => get_template_directory_uri().'assets/img/headers/header3.jpg',
+                'url' => get_template_directory_uri().'/assets/img/headers/header3.jpg',
+                'thumbnail_url' => get_template_directory_uri().'/assets/img/headers/header3.jpg',
                 'description' => 'Header 3'
             )
         ));
