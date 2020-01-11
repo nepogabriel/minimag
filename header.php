@@ -82,7 +82,7 @@
                             <div class="row">
                                 <!-- Sugerir post aleatorio -->
                                 <div class="col-sm-8 postaleatorio">
-                                    <strong>Você já viu?</strong>
+                                    <strong><?php echo __('Did you see?', 'minimag'); ?></strong>
                                     <?php
                                         //Verificar se o plugin existe
                                         if(function_exists('wpp_get_mostpopular')) {
@@ -120,7 +120,7 @@
                                 <!-- Área de rede social -->
                                 <div class="col-sm-4 socialarea">
                                     <div class="socialtxt">
-                                        <strong>SIGA:</strong>
+                                        <strong><?php echo __('FOLLOW:', 'minimag' ); ?></strong>
                                     </div>
 
                                     <div class="socialicons">

@@ -288,6 +288,7 @@ footer {
 /*paginação*/
 .post_pag {
     padding: 20px;
+    clear: both;
 }
 
 .previous_pag {

@@ -64,6 +64,9 @@ function gm_after_setup() {
     //Registrando os Menus
         register_nav_menu("primary", "Menu Principal");
         register_nav_menu("top", "Menu Topo");
+
+    //Habilitando Internacionalização
+    load_theme_textdomain('minimag', get_template_directory().'/languages');
 }
 
 //iniciar widgets
