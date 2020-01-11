@@ -328,6 +328,19 @@ footer {
     width: 100%;
 }
 
+/*PÁGINAÇÃO AJAX*/
+.loadmoreButton {
+    width: 150px;
+    height: 40px;
+    background-color: #94c354;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
 /*class esticky (post fixo- (pode ser um beneficio bônus))*/
 article.sticky .post_item {
     border: 1px solid red;
