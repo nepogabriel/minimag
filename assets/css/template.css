@@ -322,10 +322,15 @@ footer {
     border-top: 1px solid #cccccc;
 }
 
+/*IMG NO CABECALHO*/
 .custom-header img {
     width: 100%;
 }
 
+/*class esticky (post fixo- (pode ser um beneficio bônus))*/
+article.sticky .post_item {
+    border: 1px solid red;
+}
 
 /* Tablet Vertical*/
 @media (min-width: 481px) and (max-width: 768px) {
